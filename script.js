@@ -11,6 +11,6 @@ burger.addEventListener("click", () => {
 
 xmark.addEventListener("click", () => {
     mobilMenu.classList.remove("show");
-    burger.style.display = "block";
+    burger.style.display = "flex";
     xmark.style.display = "none";
 })
